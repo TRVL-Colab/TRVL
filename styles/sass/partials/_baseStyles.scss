@@ -147,3 +147,25 @@ footer {
     height: 354px;
     background: #D9D9D9;
 }
+
+.footerLinks {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    padding-top: 30px;
+}
+
+.helpful,
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a:link {
+    color: #000000;
+}
+
+a:hover {
+    color: #ADADAD;
+}
